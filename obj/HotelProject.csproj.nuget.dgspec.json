@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\HotelProject\\HotelProject.csproj": {}
+  },
+  "projects": {
+    "E:\\HotelProject\\HotelProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\HotelProject\\HotelProject.csproj",
+        "projectName": "HotelProject",
+        "projectPath": "E:\\HotelProject\\HotelProject.csproj",
+        "packagesPath": "C:\\Users\\X_Shuler_X\\.nuget\\packages\\",
+        "outputPath": "E:\\HotelProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\X_Shuler_X\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "JavaScriptEngineSwitcher.ChakraCore": {
+              "target": "Package",
+              "version": "[3.19.0, )"
+            },
+            "JavaScriptEngineSwitcher.ChakraCore.Native.linux-x64": {
+              "target": "Package",
+              "version": "[3.18.2, )"
+            },
+            "JavaScriptEngineSwitcher.ChakraCore.Native.osx-x64": {
+              "target": "Package",
+              "version": "[3.18.2, )"
+            },
+            "JavaScriptEngineSwitcher.ChakraCore.Native.win-x64": {
+              "target": "Package",
+              "version": "[3.18.2, )"
+            },
+            "JavaScriptEngineSwitcher.ChakraCore.Native.win-x86": {
+              "target": "Package",
+              "version": "[3.18.2, )"
+            },
+            "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection": {
+              "target": "Package",
+              "version": "[3.19.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            },
+            "React.AspNet": {
+              "target": "Package",
+              "version": "[5.2.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
